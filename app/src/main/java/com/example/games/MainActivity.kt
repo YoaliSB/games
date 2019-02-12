@@ -84,9 +84,43 @@ class MainActivity : AppCompatActivity() {
        player = 1
        p1.clear()
        p2.clear()
-       for(i in 1..9){
-          
-       }
+       var btn = findViewById(R.id.button) as Button
+       btn.isEnabled = true
+       btn.text = ""
+       btn.setBackgroundResource(R.color.defaultColor)
+       btn = findViewById(R.id.button2) as Button
+       btn.isEnabled = true
+       btn.text = ""
+       btn.setBackgroundResource(R.color.defaultColor)
+       btn = findViewById(R.id.button3) as Button
+       btn.isEnabled = true
+       btn.text = ""
+       btn.setBackgroundResource(R.color.defaultColor)
+       btn = findViewById(R.id.button4) as Button
+       btn.isEnabled = true
+       btn.text = ""
+       btn.setBackgroundResource(R.color.defaultColor)
+       btn = findViewById(R.id.button5) as Button
+       btn.isEnabled = true
+       btn.text = ""
+       btn.setBackgroundResource(R.color.defaultColor)
+       btn = findViewById(R.id.button6) as Button
+       btn.isEnabled = true
+       btn.text = ""
+       btn.setBackgroundResource(R.color.defaultColor)
+       btn = findViewById(R.id.button7) as Button
+       btn.isEnabled = true
+       btn.text = ""
+       btn.setBackgroundResource(R.color.defaultColor)
+       btn = findViewById(R.id.button8) as Button
+       btn.isEnabled = true
+       btn.text = ""
+       btn.setBackgroundResource(R.color.defaultColor)
+       btn = findViewById(R.id.button9) as Button
+       btn.isEnabled = true
+       btn.text = ""
+       btn.setBackgroundResource(R.color.defaultColor)
+
     }
 
     fun autoPlay(view: View){

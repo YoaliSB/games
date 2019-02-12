@@ -6,4 +6,5 @@
     <color name="white">#FFF</color>
     <color name="blue">#6495ED</color>
     <color name="green">#00FF00</color>
+    <color name="defaultColor">#DCDCDC</color>
 </resources>
